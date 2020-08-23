@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="resources/css/styles.css" />
+		<script defer src="resources/js/scripts.js"></script>
+		<title>Register Page</title>
+		<!-- <script type = "module">
+
+</script> -->
+	</head>
+	<body>
+		<section>
+			<div>
+				<h1 style="color: gray; font-weight: normal;">
+					Register New Account
+				</h1>
+			</div>
+
+			<div id="login">
+				<div style="display: flex;" id="firstxxx-lastxxx">
+					<div class="input-container">
+						<input
+							type="textx"
+							id="firstxxx"
+							onfocus="window['placeholder-firstxxx'].classList.add('active')"
+							onblur="if (window['firstxxx'].value.length == 0) window['placeholder-firstxxx'].classList.remove('active')"
+						/>
+						<span id="note2"></span>
+						<div id="placeholder-firstxxx" class="input-placeholder">
+							First Name
+						</div>
+					</div>
+
+					<div class="input-container">
+						<input
+							type="text"
+							id="lastxxx"
+							onfocus="window['placeholder-lastxxx'].classList.add('active')"
+							onblur="if (window['lastxxx'].value.length == 0) window['placeholder-lastxxx'].classList.remove('active')"
+						/>
+						<span id="note2"></span>
+
+						<div id="placeholder-lastxxx" class="input-placeholder">
+							Last Name
+						</div>
+					</div>
+				</div>
+
+				<div class="spacer"></div>
+
+				<div class="input-container">
+					<input
+						type="emailx"
+						name="emailx"
+						onfocus="window['placeholder-email'].classList.add('active')"
+						onblur="if (window['email'].value.length == 0) window['placeholder-email'].classList.remove('active')"
+						id="email"
+					/>
+					<span id="note1"></span>
+					<div id="placeholder-email" class="input-placeholder">
+						Email Address
+					</div>
+				</div>
+
+				<div class="spacer"></div>
+
+				<div class="input-container">
+					<input
+						type="text"
+						id="twitter"
+						onfocus="window['placeholder-twitter'].classList.add('active')"
+						onblur="if (window['twitter'].value.length == 0) window['placeholder-twitter'].classList.remove('active')"
+					/>
+					<span id="note2"></span>
+					<div id="placeholder-twitter" class="input-placeholder">
+						Username
+					</div>
+				</div>
+
+				<div class="spacer"></div>
+
+				<div class="input-container">
+					<input
+						type="password"
+						id="password"
+						onfocus="window['placeholder-password'].classList.add('active')"
+						onblur="if (window['password'].value.length == 0) window['placeholder-password'].classList.remove('active')"
+					/>
+					<span id="note2"></span>
+					<div id="placeholder-password" class="input-placeholder">
+						Password
+					</div>
+				</div>
+
+				<div class="spacer"></div>
+
+				<div class="input-container">
+					<input
+						type="password"
+						id="password2"
+						onfocus="window['placeholder-password-again'].classList.add('active')"
+						onblur="if (window['password2'].value.length == 0) window['placeholder-password-again'].classList.remove('active')"
+					/>
+					<span id="note3"></span>
+					<div id="placeholder-password-again" class="input-placeholder">
+						Repeat Password
+					</div>
+				</div>
+
+				<div class="spacer" style="height: 16px;"></div>
+
+				<span id="registerButton" class="btn" onclick="">Register</span>
+
+				<div class="spacer" style="height: 8px;"></div>
+
+				<p>
+					<a href="/forgotpassword" target="">Forgot Password</a> |
+					<a href="/forgotusername" target="">Forgot Username</a>
+				</p>
+				<p id="note4"></p>
+			</div>
+		</section>
+	</body>
+</html>

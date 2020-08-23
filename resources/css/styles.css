@@ -1,0 +1,79 @@
+* {
+	font-family: verdana;
+	font-size: 18px;
+}
+
+body {
+	position: relative;
+	width: 600px;
+	margin: auto;
+	padding: 32px;
+}
+
+#firstxxx-lastxxx {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 400px !important;
+}
+
+/* #firstxxx-lastxxx .input-container {
+} */
+
+#firstxxx-lastxxx input {
+	width: 190px !important;
+	margin-right: 20px;
+}
+
+.input-container {
+	position: relative;
+}
+
+input {
+	width: 400px;
+	height: 35px;
+	margin-bottom: 10px;
+	padding-left: 8px;
+}
+
+input {
+	border: 1px solid silver !important;
+	border-radius: 3px;
+}
+
+input:focus {
+	border: 1px solid #888 !important;
+}
+
+.input-container .input-placeholder {
+	position: absolute;
+	top: 9px;
+	left: 10px;
+	font-size: 15px;
+	font-family: Arial;
+	background: white;
+	padding-left: 4px;
+	padding-right: 8px;
+	transition: 0.2s;
+	pointer-events: none;
+	color: #888;
+}
+
+.input-placeholder.active {
+	top: -8px;
+	left: 5px;
+	color: #888;
+	transform: scale(0.8);
+}
+
+*:focus {
+	outline: 0px transparent !important;
+}
+
+/* Register button */
+.btn {
+	cursor: pointer;
+	padding: 15px;
+	background: #eee;
+	color: #333;
+	font-weight: normal;
+}
