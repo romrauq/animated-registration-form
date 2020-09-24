@@ -1,3 +1,17 @@
+<?php 
+
+	if(isset($_POST['submit'])){
+		$first_name = $_POST['first_name'];
+		$last_name = $_POST['last_name'];
+		$email = $_POST['email'];
+		$username = $_POST['username'];
+		$password = $_POST['password'];
+		$password_verify = $_POST['password2'];
+
+	}
+
+?>
+
 <?php require 'resources/php/include/header.php' ; ?>
 	
 	<div class="main-body">
